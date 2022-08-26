@@ -1,6 +1,6 @@
 (kicad_sch (version 20211123) (generator eeschema)
 
-  (uuid 4191d037-d28e-41ed-80ca-40b391fe3fd4)
+  (uuid 6fc8b2ff-b4c3-4650-af21-243152cdb0d2)
 
   (paper "A4")
 
@@ -2760,7 +2760,7 @@
     (property "Value" "33n" (id 1) (at 147.701 106.0066 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (id 2) (at 145.7452 107.95 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at 145.7452 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 144.78 104.14 0)
