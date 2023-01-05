@@ -1,0 +1,37 @@
+Comment,Designator,Footprint
+C_Polarized,"C1, C2, C4, C5",Capacitor_THT:CP_Radial_D12.5mm_P5.00mm
+C,"C3, C6, C7, C8",Capacitor_SMD:C_1206_3216Metric
+20u,"C9, C11, C28, C30",Capacitor_THT:CP_Radial_D5.0mm_P2.50mm
+100n,"C10, C12, C15, C16, C20, C24, C25, C26, C27, C29, C31, C42",Capacitor_SMD:C_0805_2012Metric
+1u,"C13, C21, C22, C40, C41",Capacitor_SMD:C_0805_2012Metric
+10n,C17,Capacitor_SMD:C_0805_2012Metric
+1n,C18,Capacitor_SMD:C_0805_2012Metric
+100p,C19,Capacitor_SMD:C_0805_2012Metric
+33n,"C23, C32, C33, C34, C35",Capacitor_SMD:C_0805_2012Metric
+4.7n,"C38, C39",Capacitor_THT:C_Rect_L18.0mm_W6.0mm_P15.00mm_FKS3_FKP3
+D_TVS,D1,Diode_SMD:D_SOD-123
+6.3V,D2,Diode_SMD:D_SOD-123
+LED,"D3, D5, D6, D7",LED_THT:LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm
+D_Schottky,D4,Diode_SMD:D_SOD-123
+Barrel_Jack_Switch,J1,Connector_BarrelJack:BarrelJack_GCT_DCJ200-10-A_Horizontal
+Conn_Coaxial,J2,Connector_Coaxial:BNC_TEConnectivity_1478035_Horizontal
+Conn_02x04_Odd_Even,J3,Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical
+100u,L1,Eli_Lib:MWPY8040
+10u,"L2, L3",Inductor_THT:L_Toroid_Vertical_L22.4mm_W10.2mm_P7.90mm_Vishay_TJ4
+DMP4015SK3,Q1,Package_TO_SOT_SMD:TO-252-3_TabPin4
+DMN10H220L,"Q2, Q3",Package_TO_SOT_SMD:SOT-23
+10k,"R1, R2, R3, R8, R9, R10, R11, R12, R13, R20, R21, R22",Resistor_SMD:R_0805_2012Metric
+0,"R4, R14, R15, R16, R17",Resistor_SMD:R_0805_2012Metric
+1k,"R5, R24, R27",Resistor_SMD:R_0805_2012Metric
+3.3,"R6, R7",Resistor_SMD:R_0805_2012Metric
+30k,"R18, R30",Resistor_SMD:R_0805_2012Metric
+2.7k,R19,Resistor_SMD:R_0805_2012Metric
+47k,"R23, R26",Resistor_SMD:R_0805_2012Metric
+4.7k,"R25, R28",Resistor_SMD:R_0805_2012Metric
+22k,R29,Resistor_SMD:R_0805_2012Metric
+SW_Push_Dual,SW1,Button_Switch_SMD:SW_SPST_Omron_B3FS-105xP
+TPA3255DDV,U1,Eli_Lib:SOP63P810X120-44N
+L78L12_SOT89,U2,Package_TO_SOT_SMD:SOT-89-3
+L78L33_SO8,U3,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm
+NE5532,U4,Package_SO:SO-8_3.9x4.9mm_P1.27mm
+XL7015,U5,Package_TO_SOT_SMD:TO-252-5_TabPin6
