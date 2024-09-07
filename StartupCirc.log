@@ -1,0 +1,21 @@
+Circuit: * C:\Users\elima\OneDrive\Documents\GitHub\TPA3255_ClassD_PBTL\StartupCirc.asc
+
+.OP point found by inspection.
+
+Date: Wed May 22 13:51:51 2024
+Total elapsed time: 0.094 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2753
+traniter = 2753
+tranpoints = 1196
+accept = 1152
+rejected = 44
+matrix size = 14
+fillins = 0
+solver = Normal
+Matrix Compiler1: 796 bytes object code size  0.1/0.1/[0.1]
+Matrix Compiler2: 1.09 KB object code size  0.1/0.1/[0.1]
+

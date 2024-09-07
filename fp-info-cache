@@ -1,4 +1,4 @@
-20059607149896448
+20087001560678763
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -51240,6 +51240,34 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 10
 10
 Eli_Lib
+31-5486-1010 BNC Panel RA
+
+
+0
+4
+2
+Eli_Lib
+68DsubMaleTE_2-5174225-5
+
+
+0
+68
+68
+Eli_Lib
+AC3FAH2-F-XLR
+
+AC3MAH-AU-PRE 
+0
+6
+6
+Eli_Lib
+AC3MAH-AU-PRE_AMP
+
+AC3MAH-AU-PRE 
+0
+6
+6
+Eli_Lib
 AudioTRS-3.5mm
 
 
@@ -51247,9 +51275,37 @@ AudioTRS-3.5mm
 3
 3
 Eli_Lib
+Banana-FCR7350L
+
+
+0
+5
+1
+Eli_Lib
 BigButton_TL1100F160Q
 
 
+0
+4
+4
+Eli_Lib
+CONN68_5787362-7_TEC
+
+5787362-7 
+0
+70
+70
+Eli_Lib
+CONN_RJHSE5M80_AMP
+
+RJHSE5M80 
+0
+10
+9
+Eli_Lib
+IC4_WP934EB_2GD_KNB
+
+WP934EB/2GD 
 0
 4
 4
@@ -51261,6 +51317,20 @@ IR_Rx
 3
 3
 Eli_Lib
+LED_LTL-533-11_LTO
+
+LTL-533-11 
+0
+2
+2
+Eli_Lib
+MPS_Preamp_Shield
+
+
+0
+7
+1
+Eli_Lib
 MWPY8040
 
 
@@ -51268,12 +51338,40 @@ MWPY8040
 2
 2
 Eli_Lib
+OPTO_EE-SX398
+
+
+0
+5
+5
+Eli_Lib
+PHOENIX_1722163-3P
+
+
+0
+3
+3
+Eli_Lib
+PHOENIX_1722176
+
+
+0
+4
+4
+Eli_Lib
 QFP80P900X900X120-32N
 
 
 0
 32
 32
+Eli_Lib
+RELAY_G6SK-2F DC3_OMR
+
+G6SK-2F DC12 
+0
+10
+10
 Eli_Lib
 RM-12 Core
 
@@ -51302,6 +51400,20 @@ SOP63P810X120-44N
 0
 44
 44
+Eli_Lib
+SW_PB400EEQX
+
+
+0
+4
+4
+Eli_Lib
+SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm
+SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip
+net tie solder jumper bridged
+0
+3
+3
 Eli_Lib
 Test
 

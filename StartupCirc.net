@@ -1,0 +1,17 @@
+* C:\Users\elima\OneDrive\Documents\GitHub\TPA3255_ClassD_PBTL\StartupCirc.asc
+V1 N001 0 12
+R1 N002 N001 47k
+C1 N002 0 47u
+M1 N004 N002 0 0 BSP89
+R2 N001 N004 47k
+M2 N003 N004 0 0 BSP89
+D1 0 N004 BZX84C12L
+R3 N001 N003 10k
+.model D D
+.lib C:\Users\elima\OneDrive\Documents\LTspiceXVII\lib\cmp\standard.dio
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\elima\OneDrive\Documents\LTspiceXVII\lib\cmp\standard.mos
+.tran 1 startup
+.backanno
+.end
