@@ -946,6 +946,126 @@
 				)
 			)
 		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -1062,6 +1182,12 @@
 		(uuid "4374e2cf-1ea4-444d-a934-e28d5c7e7221")
 	)
 	(junction
+		(at 154.94 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "636f71b1-e7c3-42d5-8f66-0e165f97cff4")
+	)
+	(junction
 		(at 206.375 45.085)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1143,6 +1269,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 48.26) (xy 182.88 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ab0eeb3-df3a-47a3-b060-6407d898e542")
+	)
+	(wire
+		(pts
 			(xy 206.375 40.005) (xy 206.375 45.085)
 		)
 		(stroke
@@ -1193,6 +1329,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 27.94) (xy 154.94 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78995135-ae7c-4cec-87f1-fa7edd674eb5")
+	)
+	(wire
+		(pts
 			(xy 59.055 66.04) (xy 59.055 76.2)
 		)
 		(stroke
@@ -1200,6 +1346,16 @@
 			(type default)
 		)
 		(uuid "7d2b4d59-1780-4f9f-97f7-ac8c3bc3b7aa")
+	)
+	(wire
+		(pts
+			(xy 154.94 38.1) (xy 154.94 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8253251c-2b49-4463-8993-969edefc547c")
 	)
 	(wire
 		(pts
@@ -1293,7 +1449,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 48.26) (xy 182.88 48.26)
+			(xy 106.68 48.26) (xy 154.94 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1879,6 +2035,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 154.94 34.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1ac6a28-8000-48ae-8af4-6b595e2bc189")
+		(property "Reference" "R52"
+			(at 152.4 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 152.7326 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 156.718 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63599e5e-59b5-4630-a20e-a93376a70f2c")
+		)
+		(pin "2"
+			(uuid "235cf172-655e-4f3e-b3e6-eb4eb29e8811")
+		)
+		(instances
+			(project "TPA3255PBTL"
+				(path "/ffe003c3-62df-4c03-9b6a-8506f1ae9e28/d2d9f304-0e95-4703-8f1b-74aeca3b53bb"
+					(reference "R52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 206.375 48.26 0)
 		(unit 1)
@@ -2014,6 +2237,72 @@
 			(project "TPA3255PBTL"
 				(path "/ffe003c3-62df-4c03-9b6a-8506f1ae9e28/d2d9f304-0e95-4703-8f1b-74aeca3b53bb"
 					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 154.94 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe58ff02-f309-4418-af3f-2f8550982877")
+		(property "Reference" "#PWR05"
+			(at 154.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 154.94 24.3355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "556136eb-fdb2-47e5-b7a0-efe9682de54f")
+		)
+		(instances
+			(project "TPA3255PBTL"
+				(path "/ffe003c3-62df-4c03-9b6a-8506f1ae9e28/d2d9f304-0e95-4703-8f1b-74aeca3b53bb"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
