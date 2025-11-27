@@ -4812,9 +4812,9 @@
 		)
 		(uuid "2d22e335-8da1-4f64-bffe-c571fd5c4881")
 	)
-	(text "SRP6060FA-100M"
+	(text "For L2/3 Use 0079894A7HT19 with:\n- 11 turns\n- 3 parallel strands 18 AWG magnet wire"
 		(exclude_from_sim no)
-		(at 187.325 90.17 0)
+		(at 166.878 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)

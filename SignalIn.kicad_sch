@@ -2339,6 +2339,12 @@
 		(uuid "befba220-437d-415b-8cbb-77124d5165f9")
 	)
 	(junction
+		(at 38.1 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0ad64b0-2c2e-4b69-88e6-b85f94644d9d")
+	)
+	(junction
 		(at 73.66 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2361,6 +2367,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce3cff47-3158-4e39-93bc-df84f9299957")
+	)
+	(junction
+		(at 40.64 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d59d3c63-e517-4ac6-9d0b-c8fd4807386e")
 	)
 	(junction
 		(at 73.66 149.225)
@@ -2544,6 +2556,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 92.71) (xy 40.64 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e0f4cc2-1ae8-470a-b3b7-dcce20cb4f36")
+	)
+	(wire
+		(pts
 			(xy 178.435 37.465) (xy 178.435 34.29)
 		)
 		(stroke
@@ -2631,6 +2653,16 @@
 			(type default)
 		)
 		(uuid "1f9409bc-70e9-4e74-a8eb-150c8324bcc1")
+	)
+	(wire
+		(pts
+			(xy 35.56 92.71) (xy 40.64 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20dbd711-f40b-4083-838c-8662bb3c6de4")
 	)
 	(wire
 		(pts
@@ -2841,6 +2873,16 @@
 			(type default)
 		)
 		(uuid "3f88a7a4-0a66-44f8-a4ec-ca895bfa1839")
+	)
+	(wire
+		(pts
+			(xy 38.1 100.33) (xy 38.1 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40923456-087c-4a68-8d77-68dc8befe901")
 	)
 	(wire
 		(pts
@@ -3104,6 +3146,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 95.25) (xy 38.1 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6535ff25-324c-4c90-aaa8-80cc09d159a0")
+	)
+	(wire
+		(pts
 			(xy 214.63 90.17) (xy 214.63 100.33)
 		)
 		(stroke
@@ -3234,6 +3286,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 87.63) (xy 36.83 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7617a1ac-6e79-400f-86ce-281c2f2d96e2")
+	)
+	(wire
+		(pts
 			(xy 46.99 52.07) (xy 48.26 52.07)
 		)
 		(stroke
@@ -3291,6 +3353,16 @@
 			(type default)
 		)
 		(uuid "7e10f02b-de5c-4dd5-8614-b90409083a12")
+	)
+	(wire
+		(pts
+			(xy 35.56 95.25) (xy 38.1 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f0caf3a-fcc7-4275-9f6b-b050ecb3871a")
 	)
 	(wire
 		(pts
@@ -3381,6 +3453,16 @@
 			(type default)
 		)
 		(uuid "8b33506a-36ac-4863-b7af-558ed57cedfd")
+	)
+	(wire
+		(pts
+			(xy 38.1 100.33) (xy 35.56 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e78c055-2a47-4a7a-b720-bfcd97cfc5e5")
 	)
 	(wire
 		(pts
@@ -3964,6 +4046,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 85.09) (xy 39.37 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9deb45b-3fb1-4b11-9ccb-d63394b94197")
+	)
+	(wire
+		(pts
 			(xy 180.34 54.61) (xy 177.8 54.61)
 		)
 		(stroke
@@ -4044,7 +4136,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 85.09) (xy 39.37 85.09)
+			(xy 50.8 85.09) (xy 40.64 85.09)
 		)
 		(stroke
 			(width 0)
@@ -4182,6 +4274,16 @@
 		)
 		(uuid "fed35770-3290-4c89-9561-07e5c49761b2")
 	)
+	(wire
+		(pts
+			(xy 36.83 90.17) (xy 35.56 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff6cc145-f8e0-4553-ad42-4d27553f8103")
+	)
 	(global_label "Input"
 		(shape input)
 		(at 49.53 38.1 0)
@@ -4288,6 +4390,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Input"
+		(shape input)
+		(at 36.83 87.63 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ead717c1-46f9-49d2-bc3b-149cf580ce93")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 36.83 79.8673 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4941,6 +5065,82 @@
 			(project "TPA3255PBTL"
 				(path "/ffe003c3-62df-4c03-9b6a-8506f1ae9e28/a1e399de-7197-482c-ae1f-406df563b48d"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eli_v6Lib:AC3FAH2-XLR")
+		(at 35.56 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1327a0c1-0e7c-4c5b-ae92-3a6e4e12dedf")
+		(property "Reference" "J7"
+			(at 24.13 83.82 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "AC3FAH2-XLR"
+			(at 24.13 87.63 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Eli_Lib:AC3FAH2-F-XLR"
+			(at 35.56 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://amphenolaudio.com/wp-content/uploads/2015/06/AC3FAH2-AU-PRE.pdf"
+			(at 35.56 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "562b11bf-d041-40b0-b07d-dfe618310ba2")
+		)
+		(pin "2"
+			(uuid "e316f8e1-018d-4bcc-bb68-937aa04be16d")
+		)
+		(pin "3"
+			(uuid "99552246-6ea3-464a-b42f-96893f5ba1dd")
+		)
+		(pin "G"
+			(uuid "dad6317d-8ee5-4638-a149-1ab2209f2159")
+		)
+		(instances
+			(project "TPA3255PBTL"
+				(path "/ffe003c3-62df-4c03-9b6a-8506f1ae9e28/a1e399de-7197-482c-ae1f-406df563b48d"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -7728,7 +7928,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47u"
+		(property "Value" "22u"
 			(at 173.99 38.1 90)
 			(effects
 				(font
@@ -7999,7 +8199,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47u"
+		(property "Value" "22u"
 			(at 175.26 48.26 90)
 			(effects
 				(font
@@ -8533,16 +8733,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 167.64 105.41 0)
+		(at 167.64 107.95 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e3eec7ef-8358-4006-b57b-fd5bcf441a4f")
 		(property "Reference" "J3"
-			(at 170.18 105.4099 0)
+			(at 170.18 107.9501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8551,7 +8751,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 170.18 107.9499 0)
+			(at 170.18 105.4101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8560,7 +8760,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 167.64 105.41 0)
+			(at 167.64 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8569,7 +8769,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 105.41 0)
+			(at 167.64 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8578,7 +8778,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 167.64 105.41 0)
+			(at 167.64 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8883,6 +9083,72 @@
 			(project "TPA3255PBTL"
 				(path "/ffe003c3-62df-4c03-9b6a-8506f1ae9e28/a1e399de-7197-482c-ae1f-406df563b48d"
 					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 38.1 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbaa597b-e669-4076-a9f0-8008369afd74")
+		(property "Reference" "#PWR08"
+			(at 38.1 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.1 108.7025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42d25256-4bde-4c9e-aa24-917b8c8e0570")
+		)
+		(instances
+			(project "TPA3255PBTL"
+				(path "/ffe003c3-62df-4c03-9b6a-8506f1ae9e28/a1e399de-7197-482c-ae1f-406df563b48d"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
