@@ -22,8 +22,9 @@ This repository contains schematics, PCB layout and documentation for a compact,
 - THD depends on amplitude/power but generally 0.1-0.5%. Better than that in some operating conditions/power levels. 
 - Output noise (1-25kHz) is approximately 2 microVolts/sqrt(Hz) 
 - Quiescent power draw - about 100 mA per channel
-
-
+![CAD Render](Enclosure_CAD.PNG)
+![Photo](MPS_Amps_Photo.jpg)
+![Indicators/Buttons](FrontPanel.PNG)
 ## Overview
 
 This project is intended as a general-purpose amplifier capable of replacing the AE Techron 7224 in a variety of lower-power applications. It is a high‑efficiency, medium‑power (300 Watt for sure and up to 600W, in theory...) amplifier solution with balanced I/O and configurable output coupling. The DC‑coupling button lets users switch the amplifier output between AC coupling and DC coupling for use with audio systems or laboratory instruments, etc. that require true DC‑coupled operation. The enclosure is designed to hold three amplifier modules in a 19" 2U rack, with appropriate heatsinking and airflow considerations.
